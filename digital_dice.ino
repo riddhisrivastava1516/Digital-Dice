@@ -15,7 +15,7 @@ const unsigned int BEEP_FREQUENCY = 3000;
 const int DEBOUNCE_DELAY = 50;  
 
 
-#define COMMON_CATHODE false  
+#define COMMON_CATHODE true  
 
 int On, Off; 
 bool rolling = false; 
